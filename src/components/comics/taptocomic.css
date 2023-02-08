@@ -1,0 +1,39 @@
+.comic-photo {
+  width: 293px;
+  height: 450px;
+  padding-bottom: 150px;
+}
+.comic-info {
+  margin-left: 50px;
+  width: 550px;
+}
+.title {
+  font-size: 22px;
+  line-height: 26px;
+}
+.main-info {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.pages {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.language {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.price {
+  color: #9f0013;
+}
+.back {
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+}
+.back a {
+  text-decoration: none;
+}

@@ -1,0 +1,105 @@
+.all-block {
+  margin-left: 25px;
+  width: 425px;
+  height: 350px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+.pictures-of-heroes {
+  margin: 25px;
+  width: 150px;
+  height: 163.55px;
+}
+.flexing-block {
+  display: flex;
+}
+.information-block {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.name-of-heroes {
+  min-width: 42px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.homepage-button {
+  border: none;
+  width: 101px;
+  height: 42px;
+  clip-path: polygon(-40px 100%, 0% 100%, 40px 60px, 150% 0%, 80px -40px);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #9f0013;
+}
+
+.wiki-button {
+  margin-top: 10px;
+  background: #5c5c5c;
+  border: none;
+  width: 101px;
+  height: 42px;
+  clip-path: polygon(-40px 100%, 0% 100%, 40px 60px, 150% 0%, 80px -40px);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.description-right-block {
+  margin-left: 25px;
+  width: 375px;
+  height: 139.56px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.vision {
+  position: absolute;
+  right: -190px;
+  bottom: 0px;
+}
+.shadow-blocks {
+  width: 425px;
+  height: 294px;
+  margin-left: auto;
+  box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  margin-top: 30px;
+}
+.text {
+  width: 318px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  margin: 0 auto 30px;
+}
+
+.shadow {
+  display: flex;
+}
+
+.shadow-circle {
+  background: rgba(196, 196, 196, 1);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.shadow-string {
+  width: 326px;
+  height: 16px;
+  background: rgba(196, 196, 196, 1);
+  margin: 12px 9px;
+}
+
+.shadow-block {
+  margin-top: 15px;
+  width: 375px;
+  height: 35px;
+  background: rgba(196, 196, 196, 1);
+}

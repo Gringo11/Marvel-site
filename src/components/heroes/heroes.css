@@ -1,0 +1,132 @@
+.container-for-display-flexing {
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.hero-cards {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  width: 1100px;
+  margin: auto;
+}
+.img {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+.name {
+  margin: 15px;
+  min-width: 170px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+  line-height: 26px;
+}
+.hero-card {
+  background: #232222;
+  width: 200px;
+  height: 318px;
+  margin-top: 30px;
+  transition: 0.7s;
+  margin-top: 30px;
+}
+.button {
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+  box-shadow: 5px 5px 20px rgba(185, 3, 3, 0.697);
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;
+  background: #232222;
+}
+.load-more {
+  display: block;
+  border: none;
+  margin: 45px auto 45px;
+  width: 170px;
+  height: 42px;
+  clip-path: polygon(-40px 38px, 0% 100%, 40px 90px, 230px 0px, 80px -40px);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #9f0013;
+}
+
+.low-image {
+  width: 467px;
+  height: 372px;
+  position: absolute;
+  right: -150px;
+  bottom: 0px;
+  display: relative;
+}
+.random-hero {
+  display: flex;
+  width: 1100px;
+  margin: auto;
+  margin-top: 50px;
+}
+.heroes-block {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  width: 550px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.button-to-try-block {
+  background-color: #232222;
+  color: white;
+  width: 550px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.try-it {
+  border: none;
+  width: 101px;
+  height: 38px;
+  clip-path: polygon(-40px 100%, 0% 100%, 40px 60px, 150% 0%, 80px -40px);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #9f0013;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: 35px;
+}
+.txt {
+  margin: 0%;
+}
+.random-character {
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.random-choose {
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.thor {
+  position: absolute;
+  right: 120px;
+  bottom: 400px;
+}
+.all-block {
+  margin-top: 30px;
+}
+.random-hero-info {
+  width: 265px;
+  margin-left: 30px;
+}
+.random-hero-name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+.random-hero-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
